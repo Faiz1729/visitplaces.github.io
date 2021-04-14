@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            display: flex;
+             flex-direction: column;
+        }
+        .nav bar{
+            display: flex;
+            flex-direction:column;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            
+            
+        }
+        .navi{
+            display: flex;
+        }
+        li{
+            display: flex;
+            list-style: none;
+            padding: 20px 18px;
+            color: white;
+            align-items: center;
+            justify-content: center;
+
+        }
+        a{
+            text-decoration: none;
+            color: rgb(7, 9, 10); 
+                         
+        }
+        a:hover{
+            background-color: burlywood;
+        }
+        a:active{
+          
+            background-color: cornsilk;
+        }
+        section{
+            display:flex ;
+            flex-direction: column;
+            align-items: center;
+            margin:88px 28px;
+            padding:10px 15px;
+        }
+        section::before{
+            background:url('meals.jpg')no-repeat center center/cover;
+            position: absolute;
+            content: "";
+            width:100%;
+            height:100% ;
+            top:0;
+            left:0;
+            z-index:-1 ;
+            opacity: 0.8;
+            
+            color: white;
+        }
+        body{
+            background:url()no-repeat center center/cover;
+            color:rgb(10, 8, 8);
+            font-size: 20px;
+
+
+        }
+        .logo::before{
+            background:url('logoburger.png') ;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class =logo>
+            YUMMY & CRISPY
+        </div> 
+    <div class="nav bar">
+    <ul class="navi">    
+    <li><a href ="*">Home</a></li>
+    <li><a href ="*">About us</a></li>
+    <li><a href ="*">Contact Us</a></li>
+    <li><a href ="*">Search</a></li>
+    </ul>
+    </div>
+    <section><h1>Hey, Foodie! come eat the crispy food.</h1> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis magnam nihil saepe, id cumque ipsa assumenda accusantium commodi eaque voluptatem dicta nostrum quidem veritatis necessitatibus ratione eius ullam voluptas officiis, quis quo in. Qui minima fuga distinctio nisi consequatur.</section>
+    </header>    
+</body>
+</html>
